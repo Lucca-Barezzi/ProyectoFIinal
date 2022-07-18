@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.pie1 {
+    bottom: 0;
+    grid-area:footer;
+background-color:black ;
+padding: 1%;
+font-size: 150%;
+opacity: 70%;
+width: 100%;
+bottom: 0;
+display: grid;
+padding: 1%;
+grid-area: footer;
+margin: auto;
+grid-template-columns: repeat(auto-fill, minmax(11%,1fr));
+grid-template-rows:1fr;
+margin: auto;
+max-width: 100%;
+grid-template-rows: 1fr;
+    grid-area: footer;
+  
+}
+
+
+
+@keyframes h1{
+
+    0%,
+100%{color: rgb(253, 173, 240);}
+25%{color: deeppink;}
+50%{color: deepskyblue;}
+75%{color: white;}
+}
+

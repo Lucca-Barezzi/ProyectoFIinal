@@ -1,0 +1,109 @@
+@keyframes doggy {
+
+    0%,
+    100% {
+        color: rgb(253, 173, 240);
+    }
+
+    25% {
+        color: deeppink;
+    }
+
+    50% {
+        color: deepskyblue;
+    }
+
+    75% {
+        color: white;
+    }
+
+}
+
+
+.logo {
+    width: 10vw;
+}
+
+
+.cajaSection2 {
+    text-align: center;
+    width: 80%;
+    margin: 40px auto;
+    backdrop-filter: blur(3px) saturate(180%);
+    -webkit-backdrop-filter: blur(3px) saturate(180%);
+    background-color: rgba(33, 32, 36, 0.4);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.titulosIndex {
+
+    text-align: center;
+    color: rgb(14, 13, 13);
+    font-size: 4rem;
+    margin-bottom: 3%;
+    align-self: center;
+
+
+}
+
+.titulosPerros {
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+}
+
+
+.titleMain {
+    font-size: 3rem;
+    ;
+    color: rgb(3, 3, 3);
+}
+
+
+.cajaTexto {
+
+    text-align: center;
+    width: 70%;
+    margin: 40px auto;
+    backdrop-filter: blur(3px) saturate(180%);
+    -webkit-backdrop-filter: blur(3px) saturate(180%);
+    background-color: rgba(24, 22, 22, 0.4);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+
+}
+
+.texto {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.perros1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 100%;
+    justify-content: space-around;
+
+}
+
+.displayTitulos {
+    display: flex;
+    justify-content: space-around;
+    color: bisque;
+    font-size: 200%;
+}
+
+.main1 {
+    grid-area: main;
+    margin-bottom: 4%;
+    background-color: rgb(219, 214, 214);
+    height: 100%;
+
+}

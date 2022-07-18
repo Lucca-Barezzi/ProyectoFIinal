@@ -1,0 +1,122 @@
+@media screen and (max-width: 1200px) {
+  .texto2 {
+    font-size: 1.8rem !important;
+  }
+}
+
+
+@media screen and (max-width: 520px) {
+  .proximamente {
+    font-size: 2rem;
+  }
+  .titleMain {
+    font-size: 2rem;
+  }
+  .titulosIndex {
+    font-size: 3rem;
+    ;
+  }
+  .texto {
+    font-size: 1.5rem;
+  }
+  .caninos {
+    height: 15vh;
+  }
+  .card {
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 991px) {
+  .texto {
+    font-size: 2rem;
+  }
+  .titulosIndex {
+    font-size: 3rem
+  }
+
+}
+
+
+
+@media screen and (max-width: 762px) {
+  .texto2 {
+    font-size: 1.6rem !important
+  }
+  .texto {
+    font-size: 1.5rem;
+  }
+  .vacuna {
+    height: 35% !important
+  }
+  .cara2 {
+    font-size: 0.65rem !important;
+  }
+}
+
+
+
+@media screen and (max-width: 527px) {
+  .texto2 {
+    font-size: 1.5rem !important
+  }
+  .texto {
+    font-size: 1.5rem;
+  }
+  .vacuna {
+    height: 30% !important
+  }
+  .caninos {
+    width: 70% !important;
+    margin: 10% 15% !important;
+  }
+  .card1 {
+    width: 72% !important;
+    margin: 10% 12.5% !important;
+  }
+}
+
+
+
+@media screen and (max-width: 450px) {
+  .texto2 {
+    font-size: 1.4rem !important
+  }
+}
+
+
+
+@media screen and (max-height: 660px)and (max-width:600px) {
+  .texto2 {
+    font-size: 1.2rem !important;
+  }
+}
+
+
+
+@media screen and (max-height: 550px) {
+  .tres {
+    grid-template-rows: auto 115vh 5% !important
+  }
+}
+
+
+
+@media screen and (max-height: 720px)and (min-width:1200px) {
+  .texto2 {
+    font-size: 2.2rem !important;
+  }
+}
+
+
+
+@media screen and (max-height: 830px)and (max-width:390px) {
+  .cara2 {
+    display: none !important;
+    .detalles {
+      font-size: 2rem !important;
+    }
+  }
+}

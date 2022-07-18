@@ -1,0 +1,584 @@
+@-webkit-keyframes doggy {
+  0%, 100% {
+    color: rgb(253, 173, 240);
+  }
+  25% {
+    color: deeppink;
+  }
+  50% {
+    color: deepskyblue;
+  }
+  75% {
+    color: white;
+  }
+}
+@keyframes doggy {
+  0%, 100% {
+    color: rgb(253, 173, 240);
+  }
+  25% {
+    color: deeppink;
+  }
+  50% {
+    color: deepskyblue;
+  }
+  75% {
+    color: white;
+  }
+}
+.logo {
+  width: 10vw;
+}
+
+.cajaSection2 {
+  text-align: center;
+  width: 80%;
+  margin: 40px auto;
+  backdrop-filter: blur(3px) saturate(180%);
+  -webkit-backdrop-filter: blur(3px) saturate(180%);
+  background-color: rgba(33, 32, 36, 0.4);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.titulosIndex {
+  text-align: center;
+  color: rgb(14, 13, 13);
+  font-size: 4rem;
+  margin-bottom: 3%;
+  align-self: center;
+}
+
+.titulosPerros {
+  display: flex;
+  flex-direction: row;
+  color: rgb(255, 255, 255);
+}
+
+.titleMain {
+  font-size: 3rem;
+  color: rgb(3, 3, 3);
+}
+
+.cajaTexto {
+  text-align: center;
+  width: 70%;
+  margin: 40px auto;
+  backdrop-filter: blur(3px) saturate(180%);
+  -webkit-backdrop-filter: blur(3px) saturate(180%);
+  background-color: rgba(24, 22, 22, 0.4);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.texto {
+  font-size: 2.5rem;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+}
+
+.perros1 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  max-width: 100%;
+  justify-content: space-around;
+}
+
+.displayTitulos {
+  display: flex;
+  justify-content: space-around;
+  color: bisque;
+  font-size: 200%;
+}
+
+.main1 {
+  grid-area: main;
+  margin-bottom: 4%;
+  background-color: rgb(219, 214, 214);
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.pie1 {
+  bottom: 0;
+  grid-area: footer;
+  background-color: black;
+  padding: 1%;
+  font-size: 150%;
+  opacity: 70%;
+  width: 100%;
+  bottom: 0;
+  display: grid;
+  padding: 1%;
+  grid-area: footer;
+  margin: auto;
+  grid-template-columns: repeat(auto-fill, minmax(11%, 1fr));
+  grid-template-rows: 1fr;
+  margin: auto;
+  max-width: 100%;
+  grid-template-rows: 1fr;
+  grid-area: footer;
+}
+
+@-webkit-keyframes h1 {
+  0%, 100% {
+    color: rgb(253, 173, 240);
+  }
+  25% {
+    color: deeppink;
+  }
+  50% {
+    color: deepskyblue;
+  }
+  75% {
+    color: white;
+  }
+}
+
+@keyframes h1 {
+  0%, 100% {
+    color: rgb(253, 173, 240);
+  }
+  25% {
+    color: deeppink;
+  }
+  50% {
+    color: deepskyblue;
+  }
+  75% {
+    color: white;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .texto2 {
+    font-size: 1.8rem !important;
+  }
+}
+@media screen and (max-width: 520px) {
+  .proximamente {
+    font-size: 2rem;
+  }
+  .titleMain {
+    font-size: 2rem;
+  }
+  .titulosIndex {
+    font-size: 3rem;
+  }
+  .texto {
+    font-size: 1.5rem;
+  }
+  .caninos {
+    height: 15vh;
+  }
+  .card {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .texto {
+    font-size: 2rem;
+  }
+  .titulosIndex {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 762px) {
+  .texto2 {
+    font-size: 1.6rem !important;
+  }
+  .texto {
+    font-size: 1.5rem;
+  }
+  .vacuna {
+    height: 35% !important;
+  }
+  .cara2 {
+    font-size: 0.65rem !important;
+  }
+}
+@media screen and (max-width: 527px) {
+  .texto2 {
+    font-size: 1.5rem !important;
+  }
+  .texto {
+    font-size: 1.5rem;
+  }
+  .vacuna {
+    height: 30% !important;
+  }
+  .caninos {
+    width: 70% !important;
+    margin: 10% 15% !important;
+  }
+  .card1 {
+    width: 72% !important;
+    margin: 10% 12.5% !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .texto2 {
+    font-size: 1.4rem !important;
+  }
+}
+@media screen and (max-height: 660px) and (max-width: 600px) {
+  .texto2 {
+    font-size: 1.2rem !important;
+  }
+}
+@media screen and (max-height: 550px) {
+  .tres {
+    grid-template-rows: auto 115vh 5% !important;
+  }
+}
+@media screen and (max-height: 720px) and (min-width: 1200px) {
+  .texto2 {
+    font-size: 2.2rem !important;
+  }
+}
+@media screen and (max-height: 830px) and (max-width: 390px) {
+  .cara2 {
+    display: none !important;
+  }
+  .cara2 .detalles {
+    font-size: 2rem !important;
+  }
+}
+.form {
+  border: solid;
+  width: 29%;
+  height: 25%;
+  font-size: 2rem;
+  border-style: groove;
+  border-width: 14px;
+  border-color: rgb(185, 13, 13);
+}
+
+.caninos:hover {
+  transform: scale(1.3) translateY(-60px);
+  transition: all 0.5s;
+  border-radius: 0%;
+}
+
+.btn:hover {
+  transform: scale(1.2) translateY(-10px);
+  transition: all 0.5s;
+}
+
+.wpp:hover {
+  transform: scale(1.15) translateY(-10px);
+  transition: all 0.5s;
+}
+
+.texto2 {
+  font-size: 4.5vh;
+  text-align: center;
+  max-width: 60%;
+  color: rgb(247, 247, 247);
+  margin: auto;
+}
+
+.caja3 {
+  background-color: rgba(33, 32, 36, 0.4);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  width: 80%;
+  opacity: 85%;
+  margin: 5% auto;
+  height: auto;
+}
+
+#botton {
+  transform: none;
+}
+
+.contenedor {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "header " "main " "footer";
+}
+
+.body {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "header" "main" "footer";
+}
+
+.tres {
+  grid-template-rows: auto 100vh 5%;
+}
+
+.dos {
+  grid-template-rows: auto 100vh 5%;
+}
+
+.uno {
+  grid-template-rows: auto 106% 5%;
+}
+
+h4 {
+  bottom: 0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(202, 196, 196);
+  font-weight: bolder;
+  color: black;
+}
+
+main {
+  grid-area: main;
+}
+
+.card {
+  float: right;
+}
+
+.card1 {
+  position: relative;
+  width: 50%;
+  height: 22vh;
+  margin: 10% 25%;
+  background-position: left;
+  border-radius: 300px !important;
+}
+
+.card1 .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.card1 .front {
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+}
+
+.card1 .front img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card1 .front h3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  line-height: 150%;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.card1 .back {
+  transform: perspective(600px) rotateY(180deg);
+  background-image: url(../img/pasto.jpg);
+  padding: 10px;
+  font-weight: bolder;
+  color: #f8f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+  border-radius: 300px;
+}
+
+.card1 .back .link {
+  border-top: solid 1px #f3f3f3;
+  height: 2.5rem;
+  line-height: 10px;
+}
+
+.card1 .back .link a {
+  color: #f3f3f3;
+}
+
+.card1 .back h3 {
+  font-size: 1.5rem;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+.card1 .back p {
+  letter-spacing: 1px;
+}
+
+.card1:hover .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card1:hover .back {
+  transform: perspective(600px) rotateY(360deg);
+}
+
+.cara2 {
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+
+.card1 .front {
+  border-radius: 300px;
+}
+
+.contenido {
+  background-image: url(https://www.globalmascota.com/data/fotos/perro-con-fiebre.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  opacity: 100%;
+  align-self: center;
+}
+
+.imgPerros {
+  display: grid;
+  grid-area: main;
+  height: 80%;
+  grid-template-rows: repeat(auto-fill, minmax(40%, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+}
+
+.caninos {
+  margin-top: 10%;
+  border-radius: 300px;
+  width: 50%;
+  justify-self: center;
+  height: 20vh;
+  background-attachment: fixed;
+  margin: 10% 25%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.vacuna {
+  width: 50%;
+  height: 40vh;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 10%;
+}
+
+.barry {
+  width: 24vw;
+  border-radius: 70px;
+  flex-direction: row;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+}
+
+.milo {
+  width: 24vw;
+  height: 20vh;
+  margin-right: 2%;
+  border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.slide {
+  width: 100%;
+  height: 88vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.logo {
+  width: 10vw;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  max-width: 95vw;
+}
+
+.nav-item {
+  margin-right: 5.5vw;
+  padding: 0.8%;
+  padding-right: 3%;
+}
+
+.header3 {
+  background-image: linear-gradient(to right, black, white);
+  grid-area: header;
+}
+
+.encabezado {
+  background-image: linear-gradient(to right, black, white);
+  padding-bottom: 3%;
+  width: 100%;
+}
+
+li:hover {
+  transform: scale(1.5);
+  transition: all 1s;
+}
+
+li {
+  padding: 1.3%;
+  border-radius: 5px;
+  border: solid;
+  color: black;
+  font-family: fantasy;
+  font-size: large;
+  opacity: 1;
+  text-align: center;
+  list-style-type: none;
+  background-image: linear-gradient(to right, rgb(228, 222, 222), rgb(65, 64, 64));
+  margin-top: 5%;
+}
+
+header {
+  grid-area: header;
+  -webkit-animation: doggy 3s infinite linear;
+          animation: doggy 3s infinite linear;
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(253, 253, 253));
+}
+
+.fondo {
+  grid-area: header;
+  -webkit-animation: doggy 3s infinite linear;
+          animation: doggy 3s infinite linear;
+  background-image: linear-gradient(to right, rgb(15, 15, 15), rgb(218, 218, 230));
+}
+
+.barra {
+  color: rgb(206, 27, 57);
+  text-decoration: none;
+  color: white !important;
+}
+
+.barra:hover {
+  color: white;
+}
+
+.navu {
+  padding-bottom: 5%;
+}/*# sourceMappingURL=style.css.map */
